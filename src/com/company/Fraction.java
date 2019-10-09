@@ -10,8 +10,10 @@ public class Fraction {
         numerator = n;
         denominator = d;
     }
-
-    //TODO default constructor (no arguments)
+    public Fraction(){
+        numerator = 0;
+        denominator = 0;
+    }
 
     public int getNum()
     {
